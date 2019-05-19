@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import {createAppContainer, createDrawerNavigator} from "react-navigation";
+import {createAppContainer} from "react-navigation";
+import {createDrawerNavigator} from "react-navigation-drawer";
+
 
 class HomeScreen extends Component {
   render = () => <View style={styles.home}><Text style={styles.homeText}>Drag me --></Text></View>
